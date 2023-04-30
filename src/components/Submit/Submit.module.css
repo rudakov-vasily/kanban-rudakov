@@ -1,0 +1,27 @@
+.general {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 102px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    padding: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #0079BF;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color:#003d60;
+}
+
+.input {
+    margin: 0 12px 12px;
+}

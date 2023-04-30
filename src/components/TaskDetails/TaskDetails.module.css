@@ -1,0 +1,64 @@
+.container {
+    padding: 22px 26px;
+    background-color: #0076bd;
+}
+
+.general {
+    padding: 22px 28px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.taskHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.cross {
+    width: 25px;
+    height: 25px;
+}
+
+.cross:hover {
+    opacity: 0.5;
+}
+
+.taskDescription {
+    max-width: 620px;
+    margin-top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.input {
+    display: block;
+}
+
+.button {
+    margin-top: 15px;
+    padding: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #0079BF;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color:#003d60;
+}

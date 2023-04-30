@@ -1,0 +1,19 @@
+.headerWrapper {
+    background-color: #0067A3;
+}
+
+.general {
+    max-width: 1235px;
+    min-height: 55px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Подходит для 300px*/
+@media screen and (max-width: 480px) {
+    .general {
+       flex-direction: column;
+    }
+}

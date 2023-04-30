@@ -1,0 +1,16 @@
+.logo {
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 480px) {
+    .logo  {
+        margin-left: 0px;
+        text-align: center;
+    }
+}

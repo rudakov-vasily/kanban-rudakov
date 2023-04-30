@@ -1,0 +1,85 @@
+.general {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.avatar {
+    margin-top: 5px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.avatar:hover {
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+.image {
+    width: 38px;
+    height: 38px;
+}
+
+.button {
+    margin-left: 7px;
+}
+
+.cube {
+    position: relative;
+}
+
+.cube img{
+    position: absolute;
+    top: 6px;
+    left: 81px
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItems {
+    width: 134px;
+    height: 60px;
+    margin: 12px 8px 12px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.menuItems li {
+    margin-left: 7px;
+}
+
+.menuItems li:first-child {
+    margin-bottom: 7px;
+}
+
+.menuItems a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menuItems a:hover{
+    text-decoration: underline;
+    color: #808080
+}
+
+/*Подходит для 300px*/
+@media screen and (max-width: 480px) {
+    .general {
+       align-self: flex-end;
+       margin-bottom: 5px;
+    }
+}

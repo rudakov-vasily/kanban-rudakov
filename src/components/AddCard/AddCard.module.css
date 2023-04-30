@@ -1,0 +1,22 @@
+.general {
+    margin-bottom: 8px;
+    margin-left: 12px;
+    padding: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 10px;
+    color: #5E6C84;
+}
+
+.general:hover:enabled {
+    color: #2f3642;
+    background-color: #FFFFFF;
+}
+
+.general:disabled {
+    color: #bfc4ce;
+    cursor: default;
+}

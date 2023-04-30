@@ -1,0 +1,20 @@
+.general {
+    padding: 30px 0px 30px 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    background-color: #0076bd;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #808080;
+}

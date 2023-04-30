@@ -1,0 +1,24 @@
+.general {
+    margin-right: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 740px) {
+    .general {
+        margin: 5px 0px;
+    }
+}
+
+/*Подходит для 300px*/
+@media screen and (max-width: 480px) {
+    .general {
+       margin-top: 0px;
+       display: flex;
+       text-align: center;
+    }
+}

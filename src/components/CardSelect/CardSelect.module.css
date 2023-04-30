@@ -1,0 +1,35 @@
+.taskList {
+    max-height: 150px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.emptyTask {
+    width: 258px;
+    min-height: 45px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task {
+    width: 258px;
+    min-height: 45px;
+    margin-left: 12px;
+    padding: 12px;
+    display: flex;
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.task:hover, .emptyTask:hover {
+    background: #DEDEDE;
+}
